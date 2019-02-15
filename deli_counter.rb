@@ -9,5 +9,6 @@ def line
     for i in 0...line.size do
       str += " #{i+1}. #{line[i]}"
     end
-    str
+  end
+  str
 end
