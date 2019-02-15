@@ -34,5 +34,5 @@ def now_serving(array)
   else
     str = "Currently serving #{array.shift}."
   end
-  put "#{str}"
+  puts "#{str}"
 end
