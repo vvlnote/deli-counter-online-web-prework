@@ -13,3 +13,8 @@ def line(array)
   end
   puts "#{str}"
 end
+
+
+def take_a_number(array, name)
+  array.push(name)
+end
