@@ -2,12 +2,11 @@
 katz_deli = []
 
 def line(array)
-  str = "The line is currently:"
+  str = ""
   if array.size == 0
-    puts "The line is currently empty."
-    return
+    str = "The line is currently empty."
   else
-    str = 
+    str = "The line is currently:"
     for i in 0...array.size do
       str += " #{i+1}. #{array[i]}"
     end
