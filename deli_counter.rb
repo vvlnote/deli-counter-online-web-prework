@@ -26,3 +26,7 @@ def take_a_number(array, name)
   end
   puts "#{str}"
 end
+
+def now_serving
+  
+end
