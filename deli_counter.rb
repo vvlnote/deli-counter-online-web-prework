@@ -22,5 +22,7 @@ def take_a_number(array, name)
     str = "Welcome, #{name}. You are number 1 in line."
   else
     array.push(name)
-    str = "Welcome, Ada. You are number 1 in line."
+    str = "Welcome, #{name}. You are number #{array.size} in line."
+  end
+  puts "#{str}"
 end
