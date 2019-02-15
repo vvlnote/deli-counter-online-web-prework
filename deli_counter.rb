@@ -16,5 +16,11 @@ end
 
 
 def take_a_number(array, name)
-  array.push(name)
+  str = ""
+  if array.size == 0
+    array.push(name)
+    str = "Welcome, #{name}. You are number 1 in line."
+  else
+    array.push(name)
+    str = "Welcome, Ada. You are number 1 in line."
 end
