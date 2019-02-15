@@ -10,5 +10,5 @@ def line(array)
       str += " #{i+1}. #{array[i]}"
     end
   end
-  str
+  puts "#{str}"
 end
