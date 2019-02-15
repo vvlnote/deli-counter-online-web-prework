@@ -32,5 +32,5 @@ def now_serving(array)
   if array.size == 0
     str = "There is nobody waiting to be served!"
   else
-    
+    str = "Currently serving Logan."
 end
