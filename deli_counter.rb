@@ -7,6 +7,7 @@ def line(array)
     puts "The line is currently empty."
     return
   else
+    str = 
     for i in 0...array.size do
       str += " #{i+1}. #{array[i]}"
     end
